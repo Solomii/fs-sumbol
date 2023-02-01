@@ -160,3 +160,8 @@ console.log(checkExpression("(2)",options));
 console.log(checkExpression("())",options));
 
 
+const queue = new Queue(1,2,3,4,5);
+console.log(queue)
+console.log(queue.deQueue())
+console.log(queue.enQueue(12))
+console.log(queue)
